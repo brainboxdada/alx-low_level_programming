@@ -6,7 +6,6 @@
  *
  * Return: 1 if s is a palindrome, 0 otherwise
  */
-
 int is_palindrome(char *s)
 {
 	int flag = 1;
@@ -24,7 +23,6 @@ int is_palindrome(char *s)
  *
  * Return: void
  */
-
 void check(char *s, int start, int end, int *flag)
 {
 	if (start <= end)
